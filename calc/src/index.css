@@ -1,0 +1,116 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: black;
+}
+
+.container{
+  background-color: black;
+  width: 270px;
+  height: 510px;
+  
+  border-radius: 10px; 
+  border: 2px solid  rgb(255, 166, 1); 
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: 55px 55px 55px 55px ;
+  height: 80px;
+  width: 80px;
+  grid-gap: 5px;
+  padding: 5px;
+  margin-left: 6px;
+
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 0px 0px 10px rgb(255, 166, 1);;
+}
+input{
+  width: 230px;
+  height: 2rem;
+  border:1px solid rgb(168, 168, 168);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 30px;
+  background-color: rgb(16, 16, 16);
+  color: white;
+  font-size: 2.5rem;
+  
+}
+
+button{
+  
+  border: none;
+  border-radius: 50%;
+  color: white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: 5px;
+  font-size: 1.5rem;
+  
+}
+
+.black{
+background-color: rgb(46, 43, 43);
+}
+.orange{
+  background-color: rgb(255, 166, 1);
+  }
+  .grey{
+    background-color: rgb(159, 159, 157);
+    color: black;
+    }
+
+    .black:hover{
+      background-color: rgb(92, 87, 87);
+      transition: 0.25s;
+      }
+      .black:active{
+        background-color:  rgb(129, 125, 125);
+        transition: 0.1s;
+        }
+
+        .orange:hover{
+          background-color: rgb(231, 201, 135);
+          transition: 0.25s;
+          }
+          .orange:active{
+            background-color: rgb(253, 253, 253);
+            color: rgb(255, 166, 1);
+            transition: 0.1s;
+            }
+
+            .grey:hover{
+              background-color: rgb(209, 209, 194);
+              color: black;
+              transition: 0.25s;
+              }
+              .grey:active{
+                background-color: rgb(255, 255, 255);
+                color: black;
+                transition: 0.1s;
+                }
+                
+.orangee{
+  width: 120px;
+  background-color: rgb(255, 166, 1);
+  border-radius: 50px;
+}     
+.orangee:hover{
+  width: 120px;
+  background-color: rgb(231, 201, 135);
+  border-radius: 50px;
+}    
+.orangee:active{
+  width: 120px;
+  background-color:  rgb(255, 166, 1);
+  border-radius: 50px;
+}               
